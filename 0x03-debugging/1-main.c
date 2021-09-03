@@ -11,9 +11,9 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 
-	i = 0;/* this part is causing the output to go into an infinite loop */
+	i = 0;
 
-	while (i < 10)
+	while (i < 10)/* this is the infinity bug */
 	{
 		putchar(1);
 	}
