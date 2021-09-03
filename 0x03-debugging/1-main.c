@@ -13,9 +13,9 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10)/* this is the infinity bug */
+	while (i < 10)/* this is it, because i will alwas be less than 10 */
 	{
-		putchar(1);
+		putchar(i);
 	}
 
 	printf("Infinite loop avoided! \\o/\n");
